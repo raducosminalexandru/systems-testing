@@ -18,8 +18,6 @@ jobs:
 
       - name: Run Doxygen
         uses: mattnotmitt/doxygen-action@v1.9.5
-        with:
-          additional-packages: font-fira-code
 
       - name: Upload Doxygen documentation
         uses: actions/upload-artifact@v4
